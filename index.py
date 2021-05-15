@@ -88,7 +88,6 @@ elif username_shortcut == 2 and activity_shortcut == 2 :
 
 
 
-
 # Shubham food
 elif username_shortcut == 3 and activity_shortcut == 1 :
     filepointer3_food = open("food3.txt" , "a")
