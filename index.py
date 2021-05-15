@@ -39,7 +39,7 @@ elif username_shortcut == 1 and activity_shortcut == 2 :
     
     activity_information_excercise_character1 = input("Please Enter information about what excercise you performed \n")
     activity_information_excercise_character1_specified = f" [{date}] {activity_information_excercise_character1} "
-    filepointer1.write(activity_information_excercise_character1_specified + "\n")
+    filepointer1_excercise.write(activity_information_excercise_character1_specified + "\n")
 
     filepointer1_excercise.close()
     # IF Else statement closes here
@@ -71,7 +71,7 @@ elif username_shortcut == 2 and activity_shortcut == 2 :
     
     activity_information_excercise_character2 = input("Please Enter information about what excercise you performed \n")
     activity_information_excercise_character2_specified = f" [{date}] {activity_information_excercise_character2} "
-    filepointer2.write(activity_information_excercise_character2_specified + "\n")
+    filepointer2_excercise.write(activity_information_excercise_character2_specified + "\n")
 
     filepointer2_excercise.close()
     # IF Else statement closes here
@@ -107,7 +107,7 @@ elif username_shortcut == 3 and activity_shortcut == 2 :
     
     activity_information_excercise_character3 = input("Please Enter information about what excercise you performed \n")
     activity_information_excercise_character3_specified = f" [{date}] {activity_information_excercise_character3} "
-    filepointer3.write(activity_information_excercise_character3_specified + "\n")
+    filepointer3_excercise.write(activity_information_excercise_character3_specified + "\n")
 
     filepointer3_excercise.close()
     # IF Else statement closes here
